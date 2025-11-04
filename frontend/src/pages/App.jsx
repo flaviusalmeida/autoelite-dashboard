@@ -190,8 +190,8 @@ export default function App() {
             <span className="text-2xl mr-2">🚨</span> Central de Monitoramento 24h
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <InfoCard title="Ocorrências (R/F)" value={sums.ocorrencias} tone="white" textColor="red" fontSize="4xl" className="p-6 text-center" />
-            <InfoCard title="Recuperações" value={sums.recuperacoes} tone="white" textColor="green" fontSize="4xl" className="p-6 text-center" />
+            <InfoCard title="Ocorrências (R/F)" value={sums.ocorrencias} tone="white" textColor="red" fontSize="5xl" className="p-6 text-center" />
+            <InfoCard title="Recuperações" value={sums.recuperacoes} tone="white" textColor="green" fontSize="5xl" className="p-6 text-center" />
           </div>
         </section>
 
@@ -201,13 +201,10 @@ export default function App() {
             <span className="text-2xl mr-2">⭐</span> Feedback
           </h2>
           <div className="grid grid-cols-1 gap-6">
-            <InfoCard title="Feedbacks Recebidos" value={sums.feedbacks} tone="yellow" textColor="gray" fontSize="4xl" className="p-6 text-center" />
+            <InfoCard title="Feedbacks Recebidos" value={sums.feedbacks} tone="yellow" textColor="gray" fontSize="5xl" className="p-6 text-center" />
           </div>
         </section>
       </div>
-
-
-
 
       {/* ======= Linha 2: Indicadores ======= */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">

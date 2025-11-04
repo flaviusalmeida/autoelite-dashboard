@@ -65,8 +65,6 @@ export default function InfoCard({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.4 }}
-            // className="text-2xl font-bold text-gray-900 mt-1"
-            // className={`text-2xl font-bold ${textNumber} mt-1`}
             className={`text-${fontSize} font-bold ${textNumber} mt-2`}
             >
             {value}
