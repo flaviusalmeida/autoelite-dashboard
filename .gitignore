@@ -81,13 +81,25 @@ temp/
 *.old
 
 # ===============================================
-# 🧩 Custom (para segurança)
+# 🔒 Credenciais / Arquivos Sensíveis
 # ===============================================
-# Evitar commits de arquivos sensíveis ou testes locais
+
+# Arquivos de credenciais
+sa-credentials.json
+credentials.json
+firebase-service-account.json
+
+# Certificados e chaves
 *.pem
 *.crt
 *.key
 *.p12
+
+# Bancos locais
 *.db
 *.sqlite
 *.sqlite3
+
+# ===============================================
+# ✅ Fim
+# ===============================================
