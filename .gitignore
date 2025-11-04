@@ -1,0 +1,93 @@
+# ===============================================
+# 🧠 Node / React / Vite Project .gitignore
+# ===============================================
+
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ambiente / configs locais
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Cache
+.cache/
+.vite/
+vite.config.timestamp*
+*.tsbuildinfo
+.eslintcache
+
+# Testes
+jest-html-reporters-*.html
+cypress/videos/
+cypress/screenshots/
+
+# Tailwind / PostCSS / Autoprefixer
+.postcssrc.json
+.stylelintcache
+
+# Storybook / Docs (caso use)
+storybook-static/
+.out/
+.docusaurus/
+
+# Lint / Coverage
+coverage/
+*.lcov
+
+# VSCode build cache
+.history/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Backups de configuração
+*.orig
+*.old
+
+# ===============================================
+# 🧩 Custom (para segurança)
+# ===============================================
+# Evitar commits de arquivos sensíveis ou testes locais
+*.pem
+*.crt
+*.key
+*.p12
+*.db
+*.sqlite
+*.sqlite3
