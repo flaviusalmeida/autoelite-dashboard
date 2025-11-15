@@ -1,6 +1,6 @@
 # Auto Elite - Dashboard Operacional
 
-Projeto full-stack inspirado no Painel TPZ (Node/Express + React/Tailwind).
+Projeto full-stack (Node/Express + React/Tailwind).
 
 ## Rodando local
 ### Backend
